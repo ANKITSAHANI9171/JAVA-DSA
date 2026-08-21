@@ -1,1 +1,1 @@
-printNum2(10);
+arr
