@@ -1,1 +1,1 @@
-arr
+printBoard(board);
