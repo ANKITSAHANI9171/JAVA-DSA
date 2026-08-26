@@ -1,1 +1,1 @@
-printBoard(board);
+list
