@@ -57,4 +57,5 @@ public class Ques11 {
             System.out.println(a[i]);
         }    
     }
+    }
 }
