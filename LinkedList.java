@@ -1,4 +1,5 @@
-/*public class linkedList {
+/*
+public class linkedList {
     public static void main(String[] args){
         //creating a LinkList Manually
         class Node{
