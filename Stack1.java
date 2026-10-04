@@ -23,7 +23,7 @@ public class Stack1 {
     }
 }
 */
-
+/* 
 //Push at the bottom of the stack
 public class Stack1{
     public static void pushAtBottom(Stack<Integer> s, int data){
@@ -36,6 +36,17 @@ public class Stack1{
         pushAtBottom(s, data);
         s.push(top);
     }
+    
+    //Q2.Reverse a Stack - this is different question
+    public static void reverseStack(Stack<Integer> s){
+        if(s.isEmpty()){
+            return; 
+        }
+        int top = s.pop();
+        reverseStack(s);
+        pushAtBottom(s,top);
+    }
+
     public static void main(String[] args){
         Stack<Integer> s = new Stack<>();
         s.push(1);
@@ -43,8 +54,33 @@ public class Stack1{
         s.push(3);
 
         pushAtBottom(s, 4);
+        reverseStack(s);
         while(!s.isEmpty()){
             System.out.println(s.pop());
         }
     }
 }
+/* 
+//Reverse a String using Stack
+public class Stack1{
+    public static String reverseString(String str){
+        Stack<Character> s = new Stack<>();
+        int idx = 0;
+        while(idx<str.length()){
+            s.push(str.charAt(idx));
+            idx++;
+        }
+        StringBuilder result = new StringBuilder();
+        while(!s.isEmpty()){
+            char curr = s.pop();
+            result.append(curr);
+        }
+        return result.toString();
+    }
+    public static void main (String[] args){
+        String str = "abc";
+        String result = reverseString(str);
+        System.out.println(result);
+    }
+}
+*/
