@@ -1,1 +1,1 @@
- reverseStack(s);
+str
