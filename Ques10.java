@@ -31,7 +31,7 @@ public class Ques10{
         printDigits(number/10);
         System.out.print(digits[lastDigit]+" ");
     }
-    public static void main(String[]args) {
+    public static void main(String[] args) {
         printDigits(1234);
     }
 }  
