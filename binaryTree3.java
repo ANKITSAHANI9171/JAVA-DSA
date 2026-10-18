@@ -235,7 +235,6 @@ public class binaryTree3{
         root.right.right = new Node(7);
 
         int n=5, k=1;
-
         KAncestor(root, n, k);
     }
 }
@@ -277,7 +276,6 @@ public class binaryTree3{
         preorder(root.left);
         preorder(root.right);
     }
-
     public static void main(String[] args){
         Node root = new Node(1);
         root.left = new Node(2);
