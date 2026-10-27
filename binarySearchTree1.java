@@ -353,9 +353,6 @@ public class binarySearchTree1{
 */
 
 //Mirror a BST
-
-import javax.naming.NoPermissionException;
-
 public class binarySearchTree1{
     static class Node{
         int data;
