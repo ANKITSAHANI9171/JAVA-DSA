@@ -36,7 +36,7 @@ public class array{
 }
 */
 /* 
-public class array{
+public class array{largest =
     public static void update(int marks[]){
         for(int i=0; i<marks.length; i++){
             marks[i] = marks[i] + 1;
@@ -82,8 +82,8 @@ import java.util.*;
 
 public class array{
     public static int largest(int nums[]){
-        int largest = Integer.MIN_VALUE;
-        int smallest = Integer.MAX_VALUE;
+        int largest = Integer.MIN_VALUE; 
+        int smallest = Integer.MAX_VALUE; 
         for(int i=0; i<nums.length; i++){
             if(largest < nums[i]){
                 largest = nums[i];
@@ -97,7 +97,7 @@ public class array{
     }
     public static void main(String args[]){
         int nums[] = {1,2,3,6};
-        System.out.println("Largest value is : "+largest(nums));
+        System.out.println("Largest value is : "+ largest(nums));
     }
 }
 */
