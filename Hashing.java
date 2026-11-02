@@ -122,7 +122,7 @@ public class Hashing{
             for(int i=0; i<oldBuck.length; i++){
                 LinkedList<Node> ll = oldBuck[i];
                 for(int j=0; j<ll.size(); j++){
-                    Node node = ll.remove();
+                    Node node = ll.get(j);
                     put(node.key, node.value);
                 }
             }
