@@ -63,6 +63,7 @@ public class Hashing{
 }
 
 */
+
 //Implementation HashMap
 public class Hashing{
     static class HashMap<K, V>{    //generic
@@ -75,10 +76,9 @@ public class Hashing{
                 this.value = value;
             }
         }
-        private int n;  //size of LL
         private int N;  //size of Bucket
+        private int n;  //size of LL
         private LinkedList<Node> buckets[]; //N
-
 
         @SuppressWarnings("unchecked")
         public HashMap(){
